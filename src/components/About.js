@@ -16,3 +16,5 @@ function About({bio}) {
   );
 }
 
+export default About;
+
