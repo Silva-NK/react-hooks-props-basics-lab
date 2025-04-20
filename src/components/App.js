@@ -16,7 +16,8 @@ function App() {
         name={user.name}
         city={user.city}
       />
-      <About bio={user.bio}/>
+      <About bio={user.bio}/> {/* Better version: <About bio={user.bio} links={user.links} /> 
+      Then check the comments on how it will affect About.js */}
     </div>
   );
 }
